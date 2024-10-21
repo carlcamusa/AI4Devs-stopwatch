@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Pantalla de bienvenida -->
+    <div id="welcomeScreen" class="container">
+        <button id="startAppBtn" class="startApp">Iniciar Cronómetro</button>
+    </div>
+
+    <!-- Pantalla del cronómetro -->
+    <div id="timerScreen" class="container hidden">
+        <div id="display">
+            <span id="time">00:00:00</span>
+            <span id="milliseconds">000</span>
+        </div>
+        <div class="buttons">
+            <button id="startStopBtn" class="start">Start</button>
+            <button id="clearBtn" class="clear">Clear</button>
+            <button id="backBtn" class="back">Volver</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #e6eaff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#time {
+    display: inline-block;
+}
+
+#milliseconds {
+    display: inline-block;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stop {
+    background-color: #2196F3;  /* Azul */
+    color: white;
+}
+
+.clear {
+    background-color: #f44336;
+    color: white;
+}
+
+.back {
+    background-color: #808080;
+    color: white;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.startApp {
+    font-size: 2rem;
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.startApp:hover {
+    background-color: #333;
+    color: white;
+}

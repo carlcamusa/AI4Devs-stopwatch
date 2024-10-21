@@ -1,0 +1,63 @@
+chatgpt GPT-4o
+
+---
+
+Crea una aplicación web que visualmente sea como la captura que estás viendo. 
+
+Genera dos archivos: uno que sea el archivo "index.html" y otro que sea "script.js". 
+
+La descripción de la aplicación es como sigue:
+
+1. Inicialmente aparece un contador de horas, minutos, segundos y milisegundos establecido a cero.
+
+2. Al pulsar en el botón "start", el contador se inicia y se va incrementando paulatinamente. Dicho botón pasa a contener la cadena "stop".
+
+3. Al pulsar el botón "stop", el contador se detiene. Dicho botón pasa a contener la cadena "start" de nuevo.
+
+4. Al pulsar el botón "clear", el contador se reinicializa a valor cero
+
+Por favor, antes de comenzar a generar el código, hazme las preguntas que necesites para aclarar los detalles y comprender exactamente qué tecnologías y estilos quiero usar.
+
+---
+
+Antes de proceder, tengo algunas preguntas para asegurarme de que la aplicación sea justo como la deseas:
+
+    Tecnología: ¿Prefieres que use alguna biblioteca específica de JavaScript (como jQuery) o debo limitarme a JavaScript puro (vanilla JS)?
+
+    Estilos CSS: ¿Te gustaría que incluya un archivo CSS para dar formato a los botones y el cronómetro, o quieres que use solo estilos en línea en el archivo HTML?
+
+    Formato del cronómetro: ¿El formato del cronómetro debe ser exactamente como en la imagen, con horas:minutos:segundos
+    ? ¿Qué tan preciso debe ser el cronómetro en cuanto a los milisegundos?
+
+    Botones: ¿Quieres algún efecto adicional en los botones, como animaciones o cambios de color al hacer clic?
+
+    Compatibilidad: ¿Hay algún navegador en específico en el que deba funcionar o ser probado, o debe ser compatible con todos los navegadores modernos?
+
+Con esta información podré ajustar mejor el código a tus necesidades.
+
+---
+
+1) puedes usar jquery
+2) incluye un archivo style.css que contenga los estilos
+3) el formato debe ser exactamente como en la imagen. la precisión debe ser de milisegundos.
+4) los botones tan solo se resaltan al pasar el ratón por encima de ellos
+5) debe ser compatible con los navegadores modernos
+
+---
+
+modifica el aspecto del botón que contiene la cadena "stop", su fondo debe ser azul
+
+---
+
+modifica el contador de milisegundos para que sea ligeramente más pequeño que el resto y esté situado en la parte inferior derecha respecto al resto, tal y como se ve en la captura.
+
+---
+
+incorpora una pantalla de bienvenida en la que tan solo aparece un botón tal y como se muestra en la captura. al pulsar este botón, se pasa a la pantalla con el contador y los botones. agrega en esta pantalla un botón para volver a la pantalla de bienvenida.
+
+---
+
+no pude seguir porque obtuve el siguiente mensaje:
+
+"You’ve hit the Free plan limit for GPT-4o.
+You need GPT-4o to continue this chat because there's an attachment. Your limit resets tomorrow after 3:38 AM."
